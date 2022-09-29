@@ -4,7 +4,7 @@ let userresult
 
 name = prompt("お名前を教えて下さい。");
 if (name == "") {
-  name = "名無しさん"
+  name = "名無し"
 }
 document.getElementById("name").innerHTML = name;
 
